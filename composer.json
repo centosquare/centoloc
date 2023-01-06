@@ -1,0 +1,31 @@
+{
+    "name": "centosquare/centoloc",
+    "description": "This package provides country, state and city collection",
+    "keywords": ["centosquare","country", "city", "state", "laravel", "collection", "countrycrud"],
+    "authors": [
+        {
+            "name": "CentoSquare",
+            "email": "development@centosquare.com"
+        },
+        {
+            "name": "Muhammad Waqas",
+            "email": "mwaqasiu@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CentoSquare\\CentoLoc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CentoSquare\\CentoLoc\\LaravelBladeComponentsServiceProvider"
+            ]
+        }
+    }
+}
